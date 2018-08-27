@@ -294,6 +294,15 @@ h5 {
   min-height: 195px;
 }
 
+.progressBar{
+  position: relative;
+}
+
+.progressBar img{
+  position: absolute;
+  top:0;
+}
+
 svg path {
   will-change: auto;
   stroke-width: 20px;
