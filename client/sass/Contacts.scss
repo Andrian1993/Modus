@@ -1,0 +1,109 @@
+.contact {
+  background-color: #ececec;
+  min-height: 80px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.contact-l {
+  text-decoration: none;
+  color: #000;
+}
+
+.contact h5 {
+  margin-bottom: 0;
+  color: #7f8c8c;
+  font-family: "Open Sans - Semibold";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.contact-us a {
+  color: #7f8c8c;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+}
+
+.contact .col-2 {
+  padding-top: 10px;
+}
+
+.google-map {
+  margin: 50px 0 50px 0;
+}
+
+.google-map .col-12 {
+  margin: 0 -15px;
+}
+
+.google-map .row {
+  margin-right: -45px;
+}
+
+.contact-about {
+  height: 90px;
+  background-color: #ececec;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-about p {
+  margin-bottom: 0;
+  color: #777777;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20.8px;
+}
+
+.contact-email .col-9 {
+  margin: 0 -15px;
+  color: #7f8c8c;
+}
+
+.contact-email label {
+  font-family: "Open Sans";
+}
+
+.contact-email input {
+  background-color: #ececec;
+}
+
+.contact-email textarea {
+  background-color: #ececec;
+}
+
+.contact-email button {
+  margin: 10px 0 30px;
+}
+
+.caption {
+  color: #7f8c8c;
+  font-family: "Open Sans - Semibold";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 52px;
+}
+
+.contact-email .col-3 img {
+  float: left;
+  margin-right: 15px;
+}
+
+.contact-email .description {
+  color: #777777;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.8px;
+}
