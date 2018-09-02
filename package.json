@@ -17,5 +17,8 @@
       "server": "server/main.js"
     },
     "testModule": "tests/main.js"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.7"
   }
 }

@@ -7,6 +7,7 @@ import '../imports/ui/js/Footer.js'
 import '../imports/ui/js/Home.js'
 import '../imports/ui/js/Contacts.js'
 import '../imports/ui/js/Portfolio.js'
+import '../imports/ui/js/Blog.js'
 
 Router.configure({
   layoutTemplate: 'ApplicationLayout'
@@ -22,4 +23,8 @@ Router.route('/Contacts', function () {
 
 Router.route('/Portfolio', function () {
   this.render('Portfolio');
+});
+
+Router.route('/Blog', function () {
+  this.render('Blog');
 });

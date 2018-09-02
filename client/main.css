@@ -1,7 +1,3 @@
-* {
-  font-family: 'Open Sans', sans-serif;
-}
-
 p {
   margin-bottom: 0;
 }
@@ -54,18 +50,6 @@ ul {
 .site-color-aqua:hover {
   transform: translate(10px);
 }
-
-/*.site-color-purple:hover {
-  transition: all 1s ease;
-  transform: translate(10px);
-}
-
-.site-color-purple:hover {
-  transition: all 1s ease;
-  transform: translate(10px);
-}
-*/
-
 
 nav {
   background-color: #76c7c0;
@@ -596,7 +580,41 @@ svg path {
   text-decoration: none;
   color: #ffffff;
 }
-
-
-
 /*Portfolio styles end*/
+
+/*========================================================*/
+
+/*Blog styles begin*/
+
+.blog-caption {
+  width: 70px;
+  height: 80px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+}
+
+.month {
+color: #7f8c8c;
+font-size: 20px;
+font-weight: 400;
+line-height: 14.4px;
+text-transform: uppercase;
+text-align: center;
+margin: auto;
+padding: 15px;
+}
+
+.day {
+  /* Style for "26" */
+font-family: "Open Sans";
+font-size: 30px;
+font-weight: 800;
+line-height: 14.4px;
+margin: auto;
+text-align: center;
+color: #7f8c8c;
+margin-left: 2px;
+}
+
+
+/*Blog styles end*/

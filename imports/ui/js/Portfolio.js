@@ -3,7 +3,7 @@ import "../Portfolio.html"
 if (Meteor.isClient) {
     Template.Portfolio.onRendered(function () {
 
-        for (var i = 1; i < 11; i++) {
+        for (var i = 1; i <= 16; i++) {
             let imgName = "img/portfolio/" + i + ".jpg";
             let imgHolder = $('<div class="col-3 portfolio-image"></div>');
             let img = $('<img>');

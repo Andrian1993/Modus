@@ -17,7 +17,7 @@ if (Meteor.isClient) {
     Template.Home.onRendered(function(){
       $('.site-color-purple').click(
           function () {
-              $( 'nav, .footer' ).css( "background-color", "purple" );
+              $( 'nav, .footer' ).css( "background-color", "#B47796" );
           }
       );
 
